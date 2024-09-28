@@ -53,3 +53,47 @@
     grid-template-columns: 1fr;
   }
 }
+.blog {
+  display: grid;
+  gap: 2rem;
+}
+
+.blog article {
+  background-color: var(--form-bg);
+  padding: 1rem;
+  border-radius: 23px;
+}
+
+.blog img {
+  width: 100%;
+  height: auto;
+  border-radius: 23px;
+}
+
+.blog h2 {
+  font-family: "Handjet", sans-serif;
+  font-size: 2em;
+  color: var(--secondary-color);
+}
+
+.blog p {
+  font-family: "Zilla Slab", serif;
+  font-size: 1.23em;
+  color: var(--text-color);
+}
+
+.blog a {
+  color: var(--button-text);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5em;
+  background-color: var(--button-bg);
+  transition: background-color 0.5s ease;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.blog a:hover,
+.blog a:focus {
+  background-color: var(--secondary-color);
+}
